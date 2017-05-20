@@ -6,10 +6,14 @@
   <source src="http://fastly.nicepeopleatwork.com.global.prod.fastly.net/video/sintel-1024-surround.mp4" type="video/mp4">
 </video>
 
+<div id="consoleDiv" style="height:200px; overflow-y:scroll;"></div>
+
 <script src="tracker.js"></script>
 <script>
 	const video = document.getElementById("videoPlayer");
-	const tracker = new VideoTracker(video);
+	const consoleDiv = document.getElementById("consoleDiv");
+	const requestURL = 'https://httpbin.org/post';
+	const tracker = new VideoTracker(video, requestURL, consoleDiv);
 </script>
 
 </body> 
