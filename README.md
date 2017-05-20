@@ -12,7 +12,7 @@ Also sends HTTP requests to the selected adress:
 -When the video is resumed: how many seconds has been paused, how many times has been resumed.
 -When the video ends: how many times has been paused and resumed.
 
-###Usage
+## Usage
 
 1- Import the tracker:
 
